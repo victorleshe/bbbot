@@ -1,6 +1,4 @@
 requests==2.28.2            # For making HTTP requests to the Bybit API
 websockets==11.0.3          # For connecting to Bybit's WebSocket API
 python-dotenv==1.0.0        # For loading environment variables from a .env file
-smtplib                     # For sending emails (This is part of Python's standard library)
-email                       # Part of Python's standard library (Used for constructing emails)
-asyncio                     # Part of Python's standard library (For async operations)
+
