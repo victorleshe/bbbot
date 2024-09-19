@@ -19,7 +19,7 @@ EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT")
 
 # Bybit API configurations
 BYBIT_DERIVATIVES_API = "https://api.bybit.com/v2/public/tickers"
-WEBHOOK_URL = "wss://stream.bybit.com/realtime_private"
+WEBHOOK_URL = "wss://stream.bybit.com/realtime"
 
 # Coins to track
 COINS = ['BTCUSDT', 'ETHUSDT', 'XRPUSDT', 'BNBUSDT', 'ADAUSDT']
